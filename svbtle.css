@@ -14,7 +14,6 @@
 	border-right-style: solid;
 	border-right-color: gray;
 	border-right-size: 1px;
-	background-color: blue;
 	padding: 0 40px;
 	
 }
@@ -30,7 +29,7 @@ h1 {
 	color: gray;
 	text-align: left;
 	padding: 0 100px;
-	font-size: 300%;
+	font-size: 3em;
 	font-family: Courier, Times, serif;
 	font-weight: normal;
 	
@@ -60,7 +59,6 @@ img {
 	width: 35%;
 	text-align: left;
 	padding: 30px 0 0 10px;
-	background-color: green;
 	
 }
 h4 {
@@ -80,4 +78,9 @@ a:link {
 .preview-posts{
 	text-style: bold;
 	font-size: 100%;
+}
+@media all and (max-width: 600px) {
+	body {
+		color: red;
+	}
 }
